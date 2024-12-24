@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size: 18px;
 }
 
 .outfit-qr-text, p {
@@ -10,29 +11,23 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
-  color: grey
+  font-size: 12px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: grey;
+  margin-top: -5px;
 }
 
 body {
-  background-color: hsl(0, 0%, 100%);
-  margin: 0;
-}
-
-.container {
   background-color: hsl(212, 45%, 89%);
-  padding: 100px;
-  max-width: 75%;
-  margin: auto;
-  transform: translateY(11%);
-  box-shadow: 0 12px 20px 0 lightgrey;
+  margin: 0 auto;
 }
 
 .qr-card {
   text-align: center;
-  margin: 0 auto;
+  margin: 15% auto;
   padding: 13px 13px;
-  max-width: 20%;
+  max-width: 15%;
   background-color: hsl(0, 0%, 100%);
   border-radius: 4%;
   box-shadow: 0 13px 20px 0 #beccdc;
@@ -41,10 +36,10 @@ body {
 .qr-card img {
   width: 100%;
   border-radius: 4%;
+  
 }
 
 .attribution {
-  transform: translateY(-3300%);
   font-size: 11px;
   text-align: center;
 }
