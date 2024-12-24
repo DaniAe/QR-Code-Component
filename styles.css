@@ -1,0 +1,54 @@
+.outfit-qr-text, h3 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.outfit-qr-text, p {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: grey
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+.container {
+  background-color: hsl(212, 45%, 89%);
+  padding: 100px;
+  max-width: 75%;
+  margin: auto;
+  transform: translateY(11%);
+  box-shadow: 0 12px 20px 0 lightgrey;
+}
+
+.qr-card {
+  text-align: center;
+  margin: 0 auto;
+  padding: 13px 13px;
+  max-width: 20%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 4%;
+  box-shadow: 0 13px 20px 0 #beccdc;
+}
+
+.qr-card img {
+  width: 100%;
+  border-radius: 4%;
+}
+
+.attribution {
+  transform: translateY(-3300%);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
